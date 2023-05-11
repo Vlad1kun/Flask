@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: rgba(1,150,1,0.3);
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    height: 100%;
+}
+
+.window {
+    width: 250px;
+    height: 300px;
+    margin: 30% auto;
+    border: 3px solid rgb(23,170,26);
+    padding: 20px;
+    border-radius: 50px;
+}
+
+h1 {
+    color: rgba(15,15,60,0.3);
+    text-align: center;
+}
+
+form {
+    padding-top: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 150px;
+}
+
+input {
+    background: yellowgreen;
+    border-radius: 10px;
+    padding: 2px;
+}
+
+input:last-Child {
+    width: 100px;
+    margin: 0 auto;
+}
