@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Page title</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <div class="window">
+    <h1>Форма для связи</h1>
+    <form method="post">
+        <input type="text" name="user" placeholder="Name" id="user">
+        <input type="number" name="PhoneNumber" id="PhoneNumber" placeholder="Phone number">
+        <input type="email" name="Email" id="Email" placeholder="Email">
+        <input type="Submit" value="Pull">
+    </form>
+    </div>
+</body>
+</html>
